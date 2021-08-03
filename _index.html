@@ -24,8 +24,9 @@
     </a>
     <h1 class="main-header-title">Trabalhos e groselhas de <strong>Vinicius Pimentel</strong>, <br>
       um estudante de Ciências da Computação.<br>
-      Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>
     </h1>
+    <p>Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>
+    </p>
   </header>
 
   <main class="main-content">
@@ -38,7 +39,7 @@
         blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
         lorem neque cubilia.
       </p>
-      <a href="#" title="Veja mais" class="button-default">Veja mais</a>
+      <a href="#" title="Veja mais" class="button-default button-default-stroke button-default-big">Veja mais</a>
     </section>
 
     <section class="main-content-section">
@@ -49,67 +50,67 @@
         <div class="col-2">
           <article class="recent-works-cards">
             <a class="imagem-link" href="images/thumbs/01.jpg">
-              <img src="images/thumbs/01.jpg" title="descrição">
+              <img src="images/thumbs/01.jpg" alt="descrição">
             </a>
             <p class="recent-work-title">Magna sed consequat tempus</p>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.
             </p>
-    
+
           </article>
-    
+
           <article class="recent-works-cards">
             <a class="imagem-link" href="images/thumbs/02.jpg">
-              <img src="images/thumbs/02.jpg" title="descrição">
+              <img src="images/thumbs/02.jpg" alt="descrição">
             </a>
             <p class="recent-work-title">Quam neque phasellus</p>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.
             </p>
-    
+
           </article>
-    
+
           <article class="recent-works-cards">
             <a class="imagem-link" href="images/thumbs/03.jpg">
-              <img src="images/thumbs/03.jpg" title="descrição">
+              <img src="images/thumbs/03.jpg" alt="descrição">
             </a>
             <p class="recent-work-title">Titulo recent</p>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-    
+
           </article>
         </div>
         <div class="col-2">
           <article class="recent-works-cards">
             <a class="imagem-link" href="images/thumbs/04.jpg">
-              <img src="images/thumbs/04.jpg" title="descrição">
+              <img src="images/thumbs/04.jpg" alt="descrição">
             </a>
             <p class="recent-work-title">Titulo recent</p>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-    
+
           </article>
-    
+
           <article class="recent-works-cards">
             <a class="imagem-link" href="images/thumbs/05.jpg">
-              <img src="images/thumbs/05.jpg" title="descrição">
+              <img src="images/thumbs/05.jpg" alt="descrição">
             </a>
             <p class="recent-work-title">Titulo recent</p>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-    
+
           </article>
-    
+
           <article class="recent-works-cards">
             <a class="imagem-link" href="images/thumbs/06.jpg">
-              <img src="images/thumbs/06.jpg" title="descrição">
+              <img src="images/thumbs/06.jpg" alt="descrição">
             </a>
             <p class="recent-work-title">Magna sed consequat tempus</p>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.
             </p>
-    
+
           </article>
         </div>
       </div>
 
-     
 
-     
+
+
 
       <a href="#" title="Veja o portifólio completo" class="button-default">Veja o portifólio completo</a>
 
@@ -130,7 +131,7 @@
             <div class="row">
               <div class="col-2">
                 <label for="nome">Nome</label>
-                <input placeholder="Nome completo"type="text" name="nome" id="nome">
+                <input placeholder="Nome completo" type="text" name="nome" id="nome">
               </div>
               <div class="col-2">
                 <label for="email">Email</label>
@@ -187,7 +188,7 @@
 
 
       <blockquote cite="http://developer.mozilla.org">
-        Esta é uma citação tirada da Mozilla Developer Center.
+        <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
       </blockquote>
 
       <p>
@@ -195,12 +196,11 @@
           became a big success.</q></p>
 
       <h4>Preformatted</h4>
-      <pre>
+      <pre><code>
   &lt;script&gt;
     alert('oi');
   &gt;/script&gt;
-            
-        </pre>
+      </code></pre>
 
       <h4>Listas</h4>
 
@@ -231,8 +231,8 @@
 
           <h5>Icons</h5>
           <ul class="ul-icons">
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-facebook-f"></i>
+            <li><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></li>
+            <li><span class="hidden">Facebook</span><i class="fab fa-facebook-f"></i>
             </li>
           </ul>
         </div>
@@ -375,36 +375,39 @@
         <button class="button-default button-default-full button-default-small">Default</button>
         <button class="button-default button-default-full button-default-stroke">Default</button>
       </p>
-      <input type="submit" class="button-default" value="mandar">
+      
+      <input type="submit" class="button-default" value="Send">
 
       <h5>Forms</h5>
 
-      <label for="name">nome</label>
-      <input type="text" name="name" id="name">
+      <form action="#" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
 
 
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
 
-      <select>
-        <option value="0">Selecione...</option>
-        <option value="1">HTML</option>
-        <option value="2">CSS</option>
-        <option value="3">Javascript</option>
-      </select>
+        <select>
+          <option value="0">Selecione...</option>
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">Javascript</option>
+        </select>
 
-      <label><input type="radio" value="baixa" name="prioridade">Baixa prioridade</label>
-      <label><input type="radio" value="media" name="prioridade">Média prioridade</label>
-      <label><input type="radio" value="alta" name="prioridade">Alta prioridade</label>
+        <label><input type="radio" value="baixa" name="prioridade">Baixa prioridade</label>
+        <label><input type="radio" value="media" name="prioridade">Média prioridade</label>
+        <label><input type="radio" value="alta" name="prioridade">Alta prioridade</label>
 
-      <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
-      <label><input type="checkbox" name="human" value="1">Sou humano</label>
+        <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
+        <label><input type="checkbox" name="human" value="1">Sou humano</label>
 
-      <label for="msg">Mensagem:</label>
-      <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
+        <label for="msg">Mensagem:</label>
+        <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
 
-      <input type="submit" class="button-default button-default-big" value="Enviar">
-      <input type="reset" class="button-default button-default-big button-default-stroke" value="Limpar">
+        <input type="submit" class="button-default button-default-big" value="Enviar">
+        <input type="reset" class="button-default button-default-big button-default-stroke" value="Limpar">
+      </form>
 
     </section>
 
@@ -415,16 +418,16 @@
         <img src="images/fulls/01.jpg" alt="">
       </div>
 
-      <div class="gallery-thumb">
-        <img src="images/thumbs/01.jpg" alt="">
-        <img src="images/thumbs/02.jpg" alt="">
-        <img src="images/thumbs/03.jpg" alt="">
-        <img src="images/thumbs/04.jpg" alt="">
-        <img src="images/thumbs/05.jpg" alt="">
-        <img src="images/thumbs/06.jpg" alt="">
-        <img src="images/thumbs/03.jpg" alt="">
-        <img src="images/thumbs/02.jpg" alt="">
-        <img src="images/thumbs/09.jpg" alt="">
+      <div class="gallery-thumb row">
+        <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/04.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/05.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/06.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
+        <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
 
       </div>
 
@@ -455,18 +458,23 @@
         Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
         accumsan eu faucibus. Integer ac pellentesque praesent.
       </p>
-
-
-
     </section>
-
-
-
-
 
   </main>
 
-  <footer class="main-footer"></footer>
+  <footer class="main-footer">
+
+    <ul class="ul-icons">
+      <li><span class="hidden">Twitter</span><a href="#" class="icon-link"><i class="fab fa-twitter"></i></a></li>
+      <li><span class="hidden">Facebook</span><a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>Untitled</li>
+      <li>Design: <a href="http://html5up.net">HTML UP</a></li>
+    </ul>
+
+
+  </footer>
 </body>
 
 </html>
